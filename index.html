@@ -8,12 +8,15 @@
 </head>
 <body>
     <div class="container">
+        <!-- Agrega la imagen como logo -->
+        <img src="assets/amigo-secreto.png" alt="Logo Amigo Secreto" class="logo">
+
         <h1>Amigo Secreto</h1>
         <input type="text" id="nombreAmigo" placeholder="Ingresa un nombre">
         <button onclick="agregarAmigo()">Agregar</button>
-        <div id="listaAmigos"></div> <!-- Lista de amigos -->
-        <button onclick="sortearAmigo()">Sortear Amigo</button> <!-- Botón para sortear -->
-        <div id="resultadoSorteo"></div> <!-- Contenedor para mostrar el resultado -->
+        <div id="listaAmigos"></div>
+        <button onclick="sortearAmigo()">Sortear Amigo</button>
+        <div id="resultadoSorteo"></div>
     </div>
 
     <script src="script.js"></script>
